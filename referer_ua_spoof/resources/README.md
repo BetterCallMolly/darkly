@@ -51,3 +51,8 @@ print(resp.text)
 ```
 
 This time giving us the flag.
+
+# Fix
+
+- Don't trust request headers, they can be edited by the client.
+- Use a session cookie to block access to sensitive pages.
