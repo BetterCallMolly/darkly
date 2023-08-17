@@ -13,6 +13,10 @@ the clear text password.
 This password can then be used to login at `/admin` to get the flag (the `/admin`
 directory was found via directory bruteforcing with a tool like `gobuster` or `feroxbuster`).
 
+```
+437394baff5aa33daa618be47b75cb49:qwerty123@
+```
+
 # Fix
 
 - Don't use MD5 to hash passwords!
